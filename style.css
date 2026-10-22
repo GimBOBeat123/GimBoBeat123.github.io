@@ -112,3 +112,13 @@ footer { border-top: 1px solid var(--line); text-align: center; padding: 24px; c
 .exh-status { display: flex; flex-wrap: wrap; align-items: center; gap: 16px 24px; border: 1px solid var(--accent); padding: 20px 24px; margin-bottom: 20px; }
 .exh-status strong { font-size: 20px; color: var(--accent); }
 .placeholder.mini { min-height: 120px; display: grid; place-items: center; background: var(--bg); border: 1px dashed var(--line); color: var(--muted); font-size: 13px; margin-top: 8px; }
+
+#projects .g2 { grid-template-columns: repeat(2, 1fr); }
+.issues { list-style: none; display: grid; gap: 12px; margin: 12px 0; }
+.issues li { color: var(--muted); padding-left: 14px; border-left: 2px solid var(--accent); }
+.issues b { color: var(--text); display: block; }
+.callout .note { margin-top: 12px; font-size: 14px; }
+@media (max-width: 860px) { #projects .g2 { grid-template-columns: 1fr; } }
+
+.btn.disabled { opacity: .45; cursor: not-allowed; }
+.btn.disabled:hover { transform: none; border-color: var(--line); color: inherit; }
