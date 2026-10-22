@@ -108,3 +108,7 @@ footer { border-top: 1px solid var(--line); text-align: center; padding: 24px; c
   .hero { min-height: auto; }
   .timeline li { grid-template-columns: 1fr; gap: 4px; }
 }
+
+.exh-status { display: flex; flex-wrap: wrap; align-items: center; gap: 16px 24px; border: 1px solid var(--accent); padding: 20px 24px; margin-bottom: 20px; }
+.exh-status strong { font-size: 20px; color: var(--accent); }
+.placeholder.mini { min-height: 120px; display: grid; place-items: center; background: var(--bg); border: 1px dashed var(--line); color: var(--muted); font-size: 13px; margin-top: 8px; }
